@@ -4,12 +4,12 @@ const bodyParser = require("body-parser");
 const logger = require("morgan");
 const Data = require("./data");
 
-const API_PORT = 3001;
+const API_PORT = 3000;
 const app = express();
 const router = express.Router();
 
 //MongoDB database
-const database = "TBD";
+const database = "mongodb://admin:&NJp-zHH2-@ds161144.mlab.com:61144/people";
 
 // connects our back end code with the database
 mongoose.connect(
