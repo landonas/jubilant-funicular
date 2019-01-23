@@ -9,7 +9,7 @@ const app = express();
 const router = express.Router();
 
 //MongoDB database
-const database = "mongodb://admin:&NJp-zHH2-@ds161144.mlab.com:61144/people";
+const database = "xxx";
 
 // connects our back end code with the database
 mongoose.connect(
